@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.center {
+    padding-left: calc(50% - 1140px/2);
+    padding-right: calc(50% - 1140px/2);
+}
+
+.top {
+    background: #222;
+    padding-top: 18px;
+    padding-bottom: 19px;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    gap: 41px;
+}
+
+.brand-info {
+    background: #F1E4E6;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 63.42px;
+}
+
+.brandname {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    padding-top: 290px;
+    padding-bottom: 381px;
+}
+
+.brandname h1 {
+    color: #222;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.name {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.pink {
+    color: #F16D7F;
+}
+
+.categories {
+    display: grid;
+    grid-template: repeat(3, 1fr) / 1fr 180px;
+}
