@@ -65,5 +65,13 @@ header {
 
 .categories {
     display: grid;
-    grid-template: repeat(3, 1fr) / 1fr 180px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 180px;
+    gap: 30px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.accesories {
+    grid-area: 2 / 1 / 3/ 4;
 }
